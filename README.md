@@ -19,7 +19,7 @@ Deployed and constantly updated at https://neotrix.dev at Google cloud and with 
 
 Tree files have commented lines. If you wanna test in production you have to change the lines.  The files are api/index.js, package.json and app.js.
 
-If i can help i any way just comment. 
+If i can help in any way just comment. 
 
 Thanks. 
 
