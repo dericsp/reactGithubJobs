@@ -50,6 +50,9 @@ Needs to include at package.json inside the client folder if send to production 
         }, 
 
 If you wanna test in local just download files and make this steps bellow:
+
 1 - Inside de client folder type redis-server
+
 2 - Inside the react folder type node worker/index.js, and node api/index.js.  After the request and you will see sucess: ok message, 
+
 3 - Inside the client folder type yarn start a new tab will be open in your default brownser and lauch the localhost:3000
