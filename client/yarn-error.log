@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/erichenriquegarcia/Desktop/Programacao/react/client/package.json: Unexpected token / in JSON at position 493
+  SyntaxError: /Users/erichenriquegarcia/Desktop/Programacao/react/client/package.json: Unexpected token / in JSON at position 724
       at JSON.parse (<anonymous>)
       at /usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -43,11 +43,7 @@ npm manifest:
     "eslintConfig": {
       "extends": "react-app"
     },
-    // "proxy": {
-    //   "/api": {
-    //     "target": "http://localhost:3001"
-    //   }
-    // },
+   
     "browserslist": {
       "production": [
         ">0.2%",
@@ -61,6 +57,13 @@ npm manifest:
       ]
     }
   }
+  
+  // PRODUCTION
+  // "proxy": {
+  //   "/api": {
+  //     "target": "http://localhost:3001"
+  //   }
+  // },
 
 yarn manifest: 
   No manifest
