@@ -49,10 +49,12 @@ Needs to include at package.json inside the client folder if send to production 
         }
         }, 
 
-If you wanna test in local just download files and make this steps bellow:
+To test in localserver just download files and make this steps bellow:
 
-1 - Inside de client folder type redis-server
+1 - Inside de client folder type redis-server. You will start redis for save request results to database.
 
-2 - Inside the react folder type node worker/index.js, and node api/index.js.  After the request and you will see sucess: ok message, 
+2 - Inside the react folder type node worker/index.js. After the request and you will see sucess: ok message.
 
-3 - Inside the client folder type yarn start a new tab will be open in your default brownser and lauch the localhost:3000
+3 - Inside the react folder type node api/index.js, after the start you will see a message: Example app listening on port 3001!
+
+4 - Inside the client folder type yarn start a new tab will be open in your default brownser and lauch the localhost:3000
